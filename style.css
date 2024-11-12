@@ -1,0 +1,99 @@
+/* Set up basic styling, remove default margin and padding */
+body {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar background color and link alignment */
+nav {
+  background-color: blue;
+}
+
+/* Style list items in nav to display inline and center content */
+nav ul li {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Remove underline from navigation links and set text color to white */
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Center navigation links horizontally */
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+/* Adjust background color of nav items */
+nav li {
+  margin: 0;
+  width: 33%;
+  height: 4em;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover effect for navigation items */
+nav li:hover,
+nav ul:hover {
+  background-color: rgb(0, 0, 168);
+}
+
+/* Set default width for images */
+img {
+  width: 500px;
+}
+
+/* Set default width for videos */
+video {
+  width: 700px;
+}
+
+/* Embed media to full width */
+embed {
+  display: block;
+  width: 800px;
+}
+
+/* Style aside section with border and width */
+aside {
+  width: 800px;
+  border: 5px solid blue;
+}
+
+/* Set audio controls to full width */
+audio {
+  width: 100%;
+}
+
+/* Footer styling with background color, text color, and font size */
+footer {
+  background-color: blue;
+  color: white;
+  height: 7em;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* Padding for author information in footer */
+.author-info {
+  padding-top: 10px;
+}
+
+/* Adjust contact info position within footer */
+p.contact-info {
+  margin-top: 60px;
+}
